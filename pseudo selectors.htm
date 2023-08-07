@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors</title>
+
+    <style>
+        .btn {
+            color: rgb(16, 127, 16);
+            background-color: rgb(223, 167, 84);
+            border: solid red 2px;
+            padding: 3px;
+            word-spacing: 1px;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 2px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+        }
+
+        .btn:hover {
+            color: darkgreen;
+            background-color: rgb(211, 211, 211);
+
+        }
+
+        /* .btn:visited {
+                color: rgb(50, 3, 137);
+            } */
+
+        .btn:active {
+            color: black;
+        }
+
+
+        p {
+            color: darkmagenta
+        }
+
+        .navbar {
+            background-color: black;
+            border-radius: 40px;
+            /* border: dotted 2px green; */
+            /* margin-bottom: 10px ; */
+        }
+
+        .navbar ul {
+            overflow: auto;
+
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 8px 5px;
+            padding: 1px;
+            /* margin-top: px; */
+
+
+        }
+
+        .navbar li a:hover{
+            color: red;
+            
+        }
+
+        .navbar li a {
+            color: white;
+            padding: 5px 7px;          
+            text-decoration: none;
+            
+        }
+
+        .searchbox {
+            float: right;
+            color: white;
+            padding: 6px 75px;
+            width: 195px;  /* right or left shift of search box */
+
+            /* border: dotted 2px green; */
+            /* margin:5px 5px; */
+        
+            }
+           
+    
+            .navbar input{
+                border:solid red 2px;
+                border-radius: 20px;
+                padding:2px 7px;
+
+
+            }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="https://www.google.com">Home</a></li>
+                <li><a href="https://www.facebook.com">About</a></li>
+                <li><a href="https://www.youtube.com">Service</a></li>
+                <li><a href="https://www.linkedin.com">contact us</a></li>
+                <div class="searchbox">
+                    <input type="search" name="search" id="search" placeholder="Search this website ">
+                </div>
+
+
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+
+    <!--   
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis placeat esse molestiae
+        tenetur porro, tempore reprehenderit in enim delectus praesentium dolorem recusandae
+        corrupti.Neque sequi voluptates recusandae quaerat
+        unde labore saepe voluptate est sapiente.</p><br>
+
+    <a href="https://www.google.com" class="btn">Read More</a>
+    <button class="btn">Contact us</button> -->
+
+
+
+</body>
+
+</html>

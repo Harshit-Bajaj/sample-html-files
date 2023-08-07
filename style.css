@@ -1,0 +1,40 @@
+/*id selector*/
+#p0{
+    color:blueviolet;
+}
+
+
+
+#p1 {
+    background-color: red;
+    border-style:dashed;
+}
+
+#p3{
+    background-color: hotpink ;
+    border-style: inset;
+}
+
+#p5{
+    background-color: cyan;
+    border-style: double;
+}
+
+#p7{
+    background-color:lightcoral;
+    border-style:dotted;
+}
+
+
+#p10{
+    background-color:goldenrod;
+    border-style: dashed;
+}
+/*class selector*/
+.redcolor{
+   color:red;
+}
+
+.bluecolor{
+   color: blue ;
+}
